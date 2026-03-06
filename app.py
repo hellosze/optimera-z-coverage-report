@@ -6,7 +6,7 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("📂 Two File Upload Tool")
+st.title("📂 Optimera Z Coverage Report Generator")
 
 st.write(
     "Upload two files below. This app can be used to compare or process them."
