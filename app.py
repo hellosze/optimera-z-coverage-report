@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Two File Upload App",
+    page_title="Optimera Z Coverage Report Generator",
     page_icon="📂",
     layout="centered"
 )
