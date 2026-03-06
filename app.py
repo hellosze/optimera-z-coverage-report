@@ -9,12 +9,12 @@ st.set_page_config(
 st.title("📂 Optimera Z Coverage Report Generator")
 
 st.write(
-    "Upload two files below. This app can be used to compare or process them."
+    "Upload two files below. This app will generate an Optimera Z Coverage by Ad Unit."
 )
 
 # File uploaders
-file1 = st.file_uploader("Upload First File", type=None)
-file2 = st.file_uploader("Upload Second File", type=None)
+file1 = st.file_uploader("Upload RoN Impressions CSV", type=None)
+file2 = st.file_uploader("Upload optimera=Z Impressions CSV", type=None)
 
 st.divider()
 
